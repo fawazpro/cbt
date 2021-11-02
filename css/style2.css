@@ -1,0 +1,126 @@
+@import url(awsm.css);
+
+:root{
+    --primary: #098;
+}
+.login{
+    margin: auto;
+    margin-top: 25vh;
+    width: 30vw;
+    border: 1px #000000 solid;
+    padding: 3em 1em;
+    border-radius: 10px;
+}
+form{
+    margin-top: 15px;
+}
+.btn>button{
+    border-radius: 10px;
+    margin: auto;
+    background-color: var(--primary);
+    color: hsl(0, 0%, 100%);
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.btn{
+    text-align: center;
+}
+.spa-btw{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spa-btw>h1{
+    margin: 8px 3px !important;
+}
+.main{
+    margin: auto;
+    margin-top: 20px;
+    width: 90vw;
+}
+.main-panel{
+    border: 1px #000000 solid;
+    padding-bottom: 3em;
+    border-radius: 10px;
+    padding: 1em 1em;
+
+}
+.que{
+    padding-left: 1em;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+}
+.option{
+    width: 50%;
+    text-align: center;
+    margin-top: 1.5em;
+}
+.option>button{
+    min-width: 70%;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.text-center{
+    text-align: center;
+}
+.btn-danger{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: 0;
+    width: 5rem;
+    border-radius: 10px/50%;
+    text-align: center;
+}
+.nav-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+}
+.nav-buttons>button{
+    /* background-color: blue; */
+    /* color: white; */
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: 0;
+    width: 5rem;
+    border-radius: 10px/50%;
+    text-align: center;
+}
+.nav-buttons>button:disabled{
+    background-color: grey;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: 0;
+    width: 5rem;
+    border-radius: 10px/50%;
+    text-align: center;
+}
+.progress{
+    margin-top: 10vh;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.progress-meter{
+    width: 90%;
+    border-radius: 10px;
+    height: 5px;
+    background-color: green;
+}
+.progress>.prog-bar{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 5px;
+}
+body{
+    overflow: hidden;
+}
